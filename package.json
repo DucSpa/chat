@@ -1,0 +1,19 @@
+{
+  "name": "chat",
+  "version": "1.0.0",
+  "description": "a chat bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "private": true,
+  "author": "l1-nux",
+  "license": "MIT",
+  "dependencies": {
+    "@discordjs/rest": "^2.4.2",
+    "@google/generative-ai": "^0.21.0",
+    "axios": "^1.7.9",
+    "discord.js": "^14.17.3",
+    "ollama": "^0.5.12"
+  }
+}
