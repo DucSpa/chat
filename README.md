@@ -23,10 +23,10 @@ npm install
 ```
 
 ### Configuration
-Create a `.env` file in the root directory with the following content:
+Create a `.config.json` file in the root directory with the following content:
 
-```env
-DISCORD_BOT_TOKEN=your_discord_bot_token_here
+```json
+{"token":"your_discord_bot_token"}
 ```
 
 ### Running the Bot
