@@ -1,4 +1,3 @@
-```markdown
 # Chat Repository
 This repository hosts a straightforward AI chatbot for Discord powered by Google Gemini AI. It is designed to provide responses exclusively based on the latest message received, keeping interactions simple and efficient.
 
@@ -44,4 +43,3 @@ Contributions are welcome! Please fork the repository and create a pull request 
 
 ## License
 This project is licensed under the MIT License.
-```
