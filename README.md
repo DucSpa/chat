@@ -26,7 +26,8 @@ npm install
 Create a `.config.json` file in the root directory with the following content:
 
 ```json
-{"token":"your_discord_bot_token"}
+{"token":"your_discord_bot_token",
+"apiKey":"your_googlegemini_apiKey"}
 ```
 
 ### Running the Bot
