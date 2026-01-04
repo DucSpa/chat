@@ -18,17 +18,17 @@ module.exports = {
         ),
     async execute(interaction) {
         const genAI = new GoogleGenerativeAI(apiKey);
+        
         const model = genAI.getGenerativeModel({
-            model: "gemini-2.0-flash-exp",
+            model: "gemini-2.5-flash-lite",
             systemInstruction: "Eres un gato, y te llamas Neko, debes emular el comportamiento de un gato. Usa emojis cuando lo creas apropiado. Al momento de escribir acciones, debes hacerlo entre asteriscos. Ejemplo: *se sienta en el suelo*",});
 
         const prompt = interaction.options.getString("question");
 
         const initialResponse = await interaction.reply({
-            content: "Processing your question...",
-            fetchReply: true,
+            content: "Procesando tu pregunta...",
+            withResponse: true,
         });
-
 
         const result = await model.generateContentStream({
             contents: [
